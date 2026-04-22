@@ -14,6 +14,17 @@ Kits bought from the [Ploopy store](https://ploopy.co/shop/nano-trackball-kit/) 
 
 The firmware hex file that ships with all Nanos is included in this repository as well, as `ploopyco_trackball_nano_rev1_001_default.hex`.
 
+## ZMK
+- Using PMW3610 instead of ADNS-5050
+- Using type c instead of mini USB
+- Modify 3d model with Sharp3d
+- Using micro nrf52840 as MCU
+  - Taobao link: Micro nrf52840
+  - Aliexpress : Micro nrf52840
+The schematic uses JLC EDA PRO so the project file is epro suffix.
+
+- PCB : https://github.com/tokyo2006/nano-trackball/tree/add_zmk_support/hardware/electronics/PCBs/MiniBall_For_ZMK
+- STL : https://github.com/tokyo2006/nano-trackball/tree/add_zmk_support/hardware/mechanicals/STLs/zmk
 ## Under what license is this released?
 
 As per QMK's licensing requirements, the firmware for the Ploopy Nano Trackball is released under GPLv3. Hardware design files, including electronics and mechanical files, are released under OHL CERN v1.2. Check the `LICENSE` file for full license text.
